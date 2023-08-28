@@ -1,0 +1,17 @@
+#Exercise 1
+#Part a. The code does not work because an indent is expected for the line after the "if" function.
+
+#Part b. The code does not recognise "Y" as "y" because it is case-sensitive, so it would regard it is not raining.
+
+#Part c. If in the code it is typed out as "Y" and the input is also "Y", then the code would work as intended.
+
+#Exercise 2
+test = input("Is it raining? y/n ")
+if test in ["y","Y","Yes","yes"]:
+    print("Oh dear, no football today!")
+
+#Exercise 3
+#The second line of the code should be indented after the "if" function line.
+
+else:
+  print("Great we can play!")
