@@ -1,0 +1,16 @@
+#Exercise 1
+Chopin_Year_Born = 1810
+My_Age = int(input('Which year are you born in?\nAns:'))
+Age_Difference = My_Age - Chopin_Year_Born
+print("Chopin is", Age_Difference, "years older than you!")
+
+#Exercise 2
+Celebrity = input('Who is your favourite celebrity?\nAns:')
+if Celebrity == "Ariana Grande":
+  print("We have the same favourite artist!")
+else:
+  print("you have great taste!")
+Celeb_Age = int(input('In which year is he/she born in?\nAns:'))
+MyAge = int(input('Which year are you born in?\nAns:'))
+AgeDifference = MyAge - Celeb_Age
+print(Celebrity, "is", AgeDifference, "years older than you!")
