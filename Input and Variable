@@ -3,7 +3,7 @@ FirstName = input('please type in your first name:')
 LastName = input('please type in your last name:')
 print("Good morning",FirstName,LastName,"!")
 
-Age = input('please type in your age:')
+Age = int(input('please type in your age:'))
 if Age >= 18:
     print("You're old enough to drive!")
 else:
