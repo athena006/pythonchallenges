@@ -1,0 +1,10 @@
+#Exercise 1
+MyHeight = 160
+YourHeight = int(input('What is your height in cm?'))
+HeightDifference = YourHeight - MyHeight
+if YourHeight > MyHeight:
+  print('Wow, you are taller than me by', HeightDifference, "cm!")
+elif YourHeight == MyHeight:
+  print('We have the same height!')
+else:
+  print('I am', abs(HeightDifference), "cm taller than you!. :)")
