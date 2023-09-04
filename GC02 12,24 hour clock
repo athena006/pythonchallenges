@@ -1,0 +1,15 @@
+hour = int(input('What is the time now? (please input 12 hour system)'))
+if hour <= 1200:
+  time = input('Is it am or pm?')
+  if time in ["am", "Am", "AM"]:
+    print('The time now is', hour)
+  if time in ["pm", "Pm", "PM"]:
+    print('The time now is', hour+1200)
+else:
+  print('Please input a valid time')
+  hour = int(input('What is the time now? (please input 12 hour system)'))
+  time = input('Is it am or pm?')
+  if time in ["am", "Am", "AM"]:
+    print('The time now is', hour)
+  if time in ["pm", "Pm", "PM"]:
+    print('The time now is', hour+1200)
