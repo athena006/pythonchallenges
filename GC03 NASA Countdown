@@ -1,0 +1,15 @@
+import time
+
+countdown = 10
+
+while True:
+  print('Hi! This is a countdown designed for NASA <3. Press "y" to start')
+  start = input("start? ")
+  if start == "y":
+    for i in range(countdown):
+      print(countdown-i)
+      time.sleep(1)
+    print('\033[1m' + 'Launch!🚀' + '\033[0m')
+    break
+  else:
+    start = input("start? ")
