@@ -1,0 +1,5 @@
+number = int(input('insert a number'))
+if number % 3 == 0:
+  print('this number is divisible by 3!')
+else:
+  print('this number is not divisible by 3.')
