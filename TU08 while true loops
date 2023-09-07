@@ -1,0 +1,8 @@
+while True:
+  fav_subject = input('which subject do you like the most in school? hint:CS ')
+  if fav_subject == "computer science":
+    print('yay we have the same favourite subject!')
+    break
+  else:
+    print('no try again :<')
+  
