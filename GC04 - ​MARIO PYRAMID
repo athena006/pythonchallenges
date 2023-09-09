@@ -1,0 +1,5 @@
+rows = int(input('Please enter the number of rows you require. '))
+for i in range(rows*2):
+ if i % 2 == 1:
+   print(int((rows-1)/2)*"", end="")
+   print("X"*i)
