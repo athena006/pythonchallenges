@@ -1,0 +1,10 @@
+#Exercise 1
+MyList = ["Orange", "Banana", "Apple", "Kiwi", "Strawberry", "Mango"]
+print(MyList[0:4])
+
+#Exercise 2
+Character = input('Please type in your favourite game characters')
+List = ["Mario", "Princess Peach", "Luigi", "Wario", "Waluigi"]
+List.append(Character)
+List.sort()
+print(List)
