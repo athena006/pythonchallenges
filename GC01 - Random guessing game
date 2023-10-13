@@ -1,0 +1,18 @@
+import random
+x = random.randint(0,100)
+number = int(input("Please guess the number "))
+while number != x:
+  if number > x and number < 101:
+    print("\nthe number you have guessed is higher than the answer!")
+    number = int(input("Please guess the number again "))
+  elif number < x and number > 0:
+    print("\nthe number you have guessed is lower than the answer!")
+    number = int(input("Please guess the number again "))
+  elif number < 1 or number > 100:
+    number = int(input("\nThe number you entered is invalid, please try again "))
+
+if number == x:
+    print("\nyou have guessed the correct number, congrats!")
+
+
+
