@@ -1,0 +1,6 @@
+length = int(input("Please type in the length of the painting "))
+ratio = (1+(5**0.5))/2 
+# formula for golden ratio
+height = length / ratio
+print("the painting should be", height, "units tall")
+
