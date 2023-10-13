@@ -1,4 +1,6 @@
+import time
 amount = 99
 while amount > 0:
   print(amount, "bottles of cola, take one down, pass it around.")
-  amount = amount - 1
+  amount = amount -1
+  time.sleep(2)
