@@ -1,0 +1,8 @@
+total = float(input("What is the total number of minutes that the children can play the PS4 for? "))
+children = int(input("What is the total number of children? "))
+
+time = total / children
+hours = time // 60
+minutes = time % 60
+
+print("after a fair calculation, each child should be using the PS4 for", hours, "hours and", minutes, "minutes")
