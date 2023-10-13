@@ -1,0 +1,20 @@
+number1 = int(input("Please type a number from 1 to 5 "))
+number2 = int(input("Please type another number from 1 to 5 "))
+print("\nThe numbers you have chosen are", number1, "and", number2)
+# the 3 lines above show sequencing where the computer executes the code line by line. the identifiers, "number1" and "number2" are variables
+
+while number1 < 1 or number1 > 5:
+  print("\nthe first number you have entered is outside of the range")
+  number1 = int(input("Please type a number from 1 to 5 "))
+while number2 < 1 or number2 > 5:
+    print("\nthe second number you have entered is outside of the range")
+    number2 = int(input("Please type another number from 1 to 5 "))
+# the 6 lines above show repetition where the computer will keep on executing the lines until some conditions are met.
+
+if number1 > number2:
+  print("\nThe first number you have entered is greater than the second number you have entered")
+elif number1 < number2:
+  print("\nThe second number you have entered is greater than the first number you have entered")
+else:
+  print("\nThe numbers you have entered are equal")
+# the 7 lines above show selection where the computer will execute the code if some conditions are met.
