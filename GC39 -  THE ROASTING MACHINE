@@ -1,0 +1,10 @@
+import random
+import time
+insults = ["I'd wanna smack you, but that's animal abuse :<","you’re not pretty enough to have such an ugly personality.","I thought of you today. It reminded me to take out the trash.","don’t be ashamed of who you are. That’s your parents’ job :).","you’re the reason why there are instructions on a shampoo bottle","I would wanna roast you, too bad regulations say I can't burn trash in public","if laughter was the best medicine your face would cure the world","you know the difference between you and adopted kids? At least they're wanted.","I think I found your purpose in life… to be an organ donor.","you are proof God has a sense of humour."]
+
+name = input("Hi! What is your name?")
+print(name,",", random.choice(insults))
+time.sleep(3)
+print("Have a nice day! :>")
+time.sleep(2)
+print("Or maybe not.")
