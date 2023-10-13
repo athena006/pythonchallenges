@@ -1,0 +1,5 @@
+print("Times Table")
+for j in range (1,13):
+  print("\n")
+  for i in range (12):
+    print(i+1,"x",j,"=",(i+1)*j)
