@@ -1,0 +1,32 @@
+items = ["pringles","coca-cola","lays","snickers","cup noodles","onigiri","cheetos","doritos","kit kat","m&ms"]
+prices = ["3.00","2.50","4.00","1.50","4.00","3.00","2.50","2.00", "3.00","4.00"]
+
+print("Welcome to the vending machine!\nBelow are the items that you can purchase.\nDo take note that we only accept 50 cents!")
+
+coins = float(input("Please insert your 50 cents: "))
+money = coins/2
+print("You have inserted", coins, " 50 cents.")
+
+i = 0
+while i < 10: 
+  print(i+1,".", items[i],": $",prices[i])
+  i = i + 1
+order = int(input("Please enter the number of the item you want: "))
+print("You have chosen to buy", items[order-1])
+print("The price of this item is $", prices[order-1])
+
+balance = money - float(prices[order-1])
+
+while balance < 0:
+  print("The amount you have put in is insufficient!")
+  print("you need", abs(money - float(prices[order-1])), "more coins")
+  add = float(input("Please put in more coins: "))  
+  balance = balance + (add/2)
+  print("The total amount of money that you have inserted is now $", money+(add/2))
+else:
+  print("Your balance is now: $", balance)
+
+
+
+
+
